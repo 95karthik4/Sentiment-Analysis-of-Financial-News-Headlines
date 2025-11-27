@@ -1,0 +1,16 @@
+Assignment Summary
+
+Results Summary:
+Features              Model  Accuracy  Precision   Recall       F1
+   count      MultinomialNB  0.715464   0.706801 0.715464 0.701747
+   count LogisticRegression  0.751546   0.748730 0.751546 0.737968
+   tfidf      MultinomialNB  0.675258   0.695705 0.675258 0.605305
+   tfidf LogisticRegression  0.717526   0.711979 0.717526 0.691723
+
+Best Method:
+Feature Type: count
+Model: LogisticRegression
+Weighted F1 Score: 0.7380
+
+Explanation:
+This model achieved the highest weighted F1 score, balancing precision and recall across classes and producing overall superior sentiment classification performance.
